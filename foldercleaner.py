@@ -31,7 +31,7 @@ def clean_folder(folder_path):
 
 if __name__ == "__main__":
     print("Desktop Cleaner Script")
-    folder_path = 'C:/Users/berka/Desktop/new'
+    folder_path = 'PATH'
     if os.path.isdir(folder_path):
         clean_folder(folder_path)
         print("Cleaning complete.")
